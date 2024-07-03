@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "Template for the bare minimum for a Discord bot written in JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "yoyo"
+  },
+  "author": "Yorick",
+  "dependencies": {
+    "discord.js": "^14.15.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
