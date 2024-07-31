@@ -50,3 +50,4 @@ The result should be:
 - In your Discord server the bot should look like this:
 
   ![image](https://github.com/Yorick20022/discordjs-template/assets/125297057/00f87c19-5f97-4a34-bf2b-87f9118b2d6d)
+"# kkbot123" 
