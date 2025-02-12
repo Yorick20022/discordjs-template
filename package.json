@@ -1,0 +1,26 @@
+{
+  "name": "bot-template",
+  "version": "1.0.0",
+  "description": "Typescript template for Discord bots written in DJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc-watch --onsuccess \"node dist/index.js\"",
+    "reload": "tsc-watch --onsuccess \"node dist/deploy-commands.js\""
+  },
+  "module": "es2020",
+  "author": "Yorick",
+  "dependencies": {
+    "discord-api-types": "^0.37.117",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.5",
+    "tsc-watch": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "eslint": "^8.34.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
